@@ -8,7 +8,11 @@ void main() {
   first = 4;
   second = 5;
   third = 7;
-  result = add(first, second);
+
+  //3. algorithms
+  result = add(first, second, third);
+
+  //4. output
   print("The sum of $first and $second is $result");
   result = add(first, second, 56, 67);
   print("The sum of $first, $second, 56 and 67 is $result");
@@ -29,7 +33,9 @@ int add2({required int first, required int second, int? third, int? forth}) {
   return first + second + (third ?? 0) + (forth ?? 0);
 }
 
+
 //Naming Convention
 //PascelCase: class
 // camelCase: variable
 //snake_case: file name
+ 
