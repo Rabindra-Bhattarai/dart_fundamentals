@@ -2,9 +2,7 @@ void main() {
   int num = 153;
   int original = num;
   int sum = 0;
-
   int digits = num.toString().length;
-
   while (num > 0) {
     int digit = num % 10;
     int power = 1;

@@ -16,7 +16,7 @@
 //updated and easy one
 
 void main() {
-  String name = "olleh";
+  String name = "olleh"; //wow  //mom  //dad //deed //noon
   String backward = name.split('').reversed.join('');
 
   if (name == backward) {
